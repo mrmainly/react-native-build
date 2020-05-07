@@ -22,7 +22,7 @@ export default class App extends Component {
       <NavigationContainer>
         <Drawer.Navigator>
           <Drawer.Screen name="Home" children={creatHomeStack} />
-          <Drawer.Screen name="Chat" component={Chat}/>
+          <Drawer.Screen name="Chat" component={Chat} />
           <Drawer.Screen name="Favorites" component={Favorites} />
         </Drawer.Navigator>
       </NavigationContainer>
